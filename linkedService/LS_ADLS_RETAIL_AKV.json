@@ -1,0 +1,19 @@
+{
+	"name": "LS_ADLS_RETAIL_AKV",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://stkeyvaultdemo.dfs.core.windows.net",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_KEYVAULT_RETAIL",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "adls-retail-account-key"
+			}
+		}
+	}
+}

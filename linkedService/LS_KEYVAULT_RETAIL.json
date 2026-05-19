@@ -1,0 +1,11 @@
+{
+	"name": "LS_KEYVAULT_RETAIL",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://kv-keyvault-demo-cft.vault.azure.net/"
+		}
+	}
+}
