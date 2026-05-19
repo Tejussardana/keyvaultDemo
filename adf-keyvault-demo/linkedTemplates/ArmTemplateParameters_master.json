@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-keyvault-demo"
+		},
+		"LS_ADLS_RETAIL_AKV_properties_typeProperties_url": {
+			"value": "https://stkeyvaultdemo.dfs.core.windows.net"
+		},
+		"LS_KEYVAULT_RETAIL_properties_typeProperties_baseUrl": {
+			"value": "https://kv-keyvault-demo-cft.vault.azure.net/"
+		},
+		"LS_SQL_RETAIL_AKV_properties_typeProperties_server": {
+			"value": "sr-keyvault-demo.database.windows.net"
+		},
+		"LS_SQL_RETAIL_AKV_properties_typeProperties_database": {
+			"value": "sql-keyvault-demo"
+		},
+		"LS_SQL_RETAIL_AKV_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
